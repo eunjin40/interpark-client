@@ -2,8 +2,6 @@
   position: relative;
   padding-top: 0;
   padding-bottom: 90px;
-
-  /* background-color: yellow; */
 }
 .recommend-inner {
   position: relative;
@@ -83,7 +81,7 @@
   position: relative;
   height: 425px;
   border: 1px solid #e8e8e8;
-  border-radius: 10px;
+  border-radius: 1.2rem;
   background-color: transparent;
   overflow: hidden;
 }
@@ -179,4 +177,13 @@
   font-size: 1.6rem;
   columns: #333;
   font-weight: 700;
+}
+
+.recommend-footer a::after {
+  content: "";
+  display: inline-block;
+  width: 0.7rem;
+  height: 1.1rem;
+  margin-left: 0.7rem;
+  background: url(../images/icon_linkArrow.svg) no-repeat center;
 }
