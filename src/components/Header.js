@@ -1,15 +1,18 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
+import { HeaderTopLeft } from "../styled/header";
 import "../styles/header.css";
+import styled from "@emotion/styled";
 
 function Header() {
   // js 코드 자리
+
   return (
     <header className="header">
       {/* 레이아웃 : div  */}
       <div className="header-inner">
         <div className="header-top">
-          <div className="header-top-left">
+          <HeaderTopLeft w="625" h="50">
             <a href="index.html" className="logo"></a>
             {/* 검색은 div 하나 주자 */}
             <div className="header-search">
@@ -19,7 +22,7 @@ function Header() {
                 <input type="button" value="검색" className="search-bt" />
               </form>
             </div>
-          </div>
+          </HeaderTopLeft>
 
           <div className="header-top-right">
             <ul className="member-menu">
