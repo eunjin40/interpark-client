@@ -67,11 +67,11 @@ export const BtCate = styled.button`
   padding: 0px 20px;
   line-height: 42px;
 
-  border: 1px solid ${(props) => (props.active ? "transparent" : "#e5e5e5")};
+  border: 1px solid ${(props) => (props.focus ? "transparent" : "#e5e5e5")};
   border-radius: 44px;
-  background-color: ${(props) => (props.active ? "#333" : "#fff")};
+  background-color: ${(props) => (props.focus ? "#333" : "#fff")};
   cursor: pointer;
   font-size: 1.4rem;
-  color: ${(props) => (props.active ? "#fff" : "#111")};
-  font-weight: ${(props) => (props.active ? "700" : "400")};
+  color: ${(props) => (props.focus ? "#fff" : "#111")};
+  font-weight: ${(props) => (props.focus ? "700" : "400")};
 `;

@@ -31,6 +31,10 @@ img {
 }
 button {
   font-family: "Pretendard", sans-serif;
+  padding: 0;
+  outline: none;
+  background-color: transparent;
+  border: none;
 }
 html {
   font-size: 10px;

@@ -1,7 +1,7 @@
 {
   "total": 8,
   "ticket_1": {
-    "image": "images/ti1.gif",
+    "image": "images/ticket/ticket1_1.gif",
     "rank": 1,
     "name": "뮤지컬 <몬테크리스토>",
     "place": "충무아트센터 대극장",
@@ -11,7 +11,7 @@
     "url": "c.html"
   },
   "ticket_2": {
-    "image": "images/ti2.gif",
+    "image": "images/ticket/ticket1_2.gif",
     "rank": 2,
     "name": "태양의서커스 <루치아>",
     "place": "잠실종합운동장 내 빅탑",
@@ -21,7 +21,7 @@
     "url": "c.html"
   },
   "ticket_3": {
-    "image": "images/ti3.gif",
+    "image": "images/ticket/ticket1_3.gif",
     "rank": 3,
     "name": "뮤지컬 <스토리오브마이라이프>",
     "place": "두산아트센터 연강홀",
@@ -31,7 +31,7 @@
     "url": "c.html"
   },
   "ticket_4": {
-    "image": "images/ti4.gif",
+    "image": "images/ticket/ticket1_4.gif",
     "rank": 4,
     "name": "뮤지컬 <렌트>",
     "place": "coex 신한카드 artium",
@@ -41,7 +41,7 @@
     "url": "c.html"
   },
   "ticket_5": {
-    "image": "images/ti5.gif",
+    "image": "images/ticket/ticket1_5.gif",
     "rank": 5,
     "name": "태양의서커스 <루치아> - 부산",
     "place": "신세계 센텀시티 내 빅탑",
@@ -51,7 +51,7 @@
     "url": "c.html"
   },
   "ticket_6": {
-    "image": "images/ti6.gif",
+    "image": "images/ticket/ticket1_6.gif",
     "rank": 6,
     "name": "뮤지컬 <레베카> 10주년 기념공연",
     "place": "블루스퀘어 신한카드홀",
@@ -61,7 +61,7 @@
     "url": "c.html"
   },
   "ticket_7": {
-    "image": "images/ti7.gif",
+    "image": "images/ticket/ticket1_7.gif",
     "rank": 7,
     "name": "뮤지컬 <레미제라블>",
     "place": "블루스퀘어 신한카드홀",

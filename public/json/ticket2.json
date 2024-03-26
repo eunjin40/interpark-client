@@ -1,0 +1,77 @@
+{
+    "total": 8,
+    "ticket_1": {
+      "image": "images/ticket/ticket2_1.gif",
+      "rank": 1,
+      "name": "SEVENTEEN TOUR ‘FOLLOW’ AGAIN TO INCHEON",
+      "place": "인천 아시아드 주경기장",
+      "date": "2024.03.30 - 2024.03.31",
+      "class": "ticket-good-badge-red",
+      "badge": "단독판매",
+      "url": "c.html"
+    },
+    "ticket_2": {
+      "image": "images/ticket/ticket2_2.gif",
+      "rank": 2,
+      "name": "2024 성동문화재단 소월아트홀에서 떠나는 유럽 여행",
+      "place": "소월아트홀",
+      "date": "2024.04.26 - 2024.04.27",
+      "class": "ticket-good-badge-red",
+      "badge": "단독판매",
+      "url": "c.html"
+    },
+    "ticket_3": {
+      "image": "images/ticket/ticket2_3.gif",
+      "rank": 3,
+      "name": "플라워 콘서트 with 미교 - 안성",
+      "place": "안성맞춤아트홀 대공연장",
+      "date": "2024.04.20 - 2024.04.20",
+      "class": "ticket-good-badge-red",
+      "badge": "단독판매",
+      "url": "c.html"
+    },
+    "ticket_4": {
+      "image": "images/ticket/ticket2_4.gif",
+      "rank": 4,
+      "name": "PLAVE THE 1ST FAN CONCERT ‘Hello, Asterum!’",
+      "place": "올림픽공원 올림픽홀",
+      "date": "2024.04.13 - 2024.04.14",
+      "class": "ticket-good-badge-red",
+      "badge": "단독판매",
+      "url": "c.html"
+    },
+    "ticket_5": {
+      "image": "images/ticket/ticket2_5.gif",
+      "rank": 5,
+      "name": "2024 디셈버 DK 콘서트 ‘피어오름’",
+      "place": "신한카드 SOL페이 스퀘어(구,신한pLay스퀘어라이브홀)",
+      "date": "2024.04.26 - 2024.04.28",
+      "class": "ticket-good-badge-red",
+      "badge": "단독판매",
+      "url": "c.html"
+    },
+    "ticket_6": {
+      "image": "images/ticket/ticket2_6.gif",
+      "rank": 6,
+      "name": "2024 SG워너비 콘서트 : 우리의 노래",
+      "place": "KSPO DOME (올림픽체조경기장)",
+      "date": "2024.03.22 - 2024.03.24",
+      "class": "ticket-good-badge-red",
+      "badge": "단독판매",
+      "url": "c.html"
+    },
+    "ticket_7": {
+      "image": "images/ticket/ticket2_7.gif",
+      "rank": 7,
+      "name": "HIPHOPPLAYA FESTIVAL 2024",
+      "place": "서울 난지한강공원",
+      "date": "2024.05.04 - 2024.05.05",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_8": {
+      "url": "go,html"
+    }
+  }
+  

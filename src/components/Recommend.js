@@ -11,80 +11,49 @@ import "../styles/common.css";
 import { useEffect, useRef, useState } from "react";
 // axios 모듈(js.파일) 가져오기
 import axios from "axios";
-import styled from "@emotion/styled";
 import { InnerArea, SectionTag } from "./layout/layout";
 
 function Recommend() {
   // js 코드 자리
-  // JSX 의 요소를 React에서 참조
   const swiperRef = useRef();
-  // JSON 데이터 저장해두고 자료가 바뀌면 화면을 번경할
-  // 리액트 변수를 만든다.
   const [htmlTag, setHtmlTag] = useState([]);
+  const [active, setActiveCategory] = useState("recommend1");
+  const [jsonCategory, setJsonCategory] = useState("recommend1");
+
+  const numberWithCommas = (str) => {
+    return str.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  };
 
   // 외부 데이터 연동하기 (axois 이용)
-  const axiosJsonData = () => {
+  const axiosJsonData = function (category) {
     axios
-      .get("recommend.json")
+      .get(`json/${category}.json`)
       .then(function (res) {
-        console.log(res.data);
-
         const result = res.data;
         let arr = [];
         for (let i = 0; i < result.total; i++) {
           const obj = result["good_" + (i + 1)];
           arr[i] = obj;
         }
-        console.log(arr);
         setHtmlTag(arr);
       })
       .catch(function (error) {
-        console.log(error);
+        // console.log(error);
       });
   };
 
-  // 외부 데이터 연동하기 (fetch 이용)
-  const getJsonData = () => {
-    fetch("recommend.json")
-      .then((response) => {
-        console.log("response : ", response);
-        // 자료가 불러들여졌을 때
-        return response.json();
-      })
-      .then((result) => {
-        console.log("result : ", result);
-        // 자료를 원하는데로 처리하겠다.
-        // result를 화면에 출력하겠다.
-        // 자료가 바뀌면 화면을 변경하는 기능을 생성하겠다.
-        let arr = [];
-        for (let i = 0; i < result.total; i++) {
-          const obj = result["good_" + (i + 1)];
-          arr[i] = obj;
-        }
-        console.log(arr);
-        setHtmlTag(arr);
-      })
-      .catch((error) => {
-        // 에러가 발생했다.
-        console.log("error : ", error);
-      });
-  };
-
-  // html이 준비가 되면, json을 불러들이겠다.
-  // 1. 외부데이터 부르기 좋은 자리
-  // 2. html 태그 참조 (useRef 할때)
-  // 3. window 참조할때
-  // 4. window.addEventListener("scroll"...)
-  // 5. cleanUp 할 때 : 컴포넌트 화면에서 사라질때 실행할 함수
-  // 6. 타이머 만들고, 제거할 때.
-  // 컴포넌트가 화면에 보여질 때 실행할 내용 기재 장소
-  // use 는 Hook 이라고 합니다.
-  // 원하는 시점을 감시하고 실행할 함수
   useEffect(() => {
-    // 외부 데이터 불러들이기
-    axiosJsonData();
-    // getJsonData();
-  }, []);
+    axiosJsonData(jsonCategory); // JSON 데이터를 가져오는 함수
+
+    if (swiperRef.current) {
+      swiperRef.current.slideTo(0); // 첫 번째 슬라이드로 이동
+    }
+  }, [jsonCategory]);
+
+  const CategoryClick = (category) => {
+    setActiveCategory(category);
+    setJsonCategory(category); // JSON 카테고리를 업데이트
+  };
 
   return (
     <SectionTag pt={0} pb={90}>
@@ -100,16 +69,36 @@ function Recommend() {
           <div className="recommend-category">
             <ul className="recommend-list">
               <li>
-                <BtCate active={true}>쎈딜</BtCate>
+                <BtCate
+                  focus={active === "recommend1"}
+                  onClick={() => CategoryClick("recommend1")}
+                >
+                  쎈딜
+                </BtCate>
               </li>
               <li>
-                <BtCate>베스트</BtCate>
+                <BtCate
+                  focus={active === "recommend2"}
+                  onClick={() => CategoryClick("recommend2")}
+                >
+                  베스트
+                </BtCate>
               </li>
               <li>
-                <BtCate>블프데이</BtCate>
+                <BtCate
+                  focus={active === "recommend3"}
+                  onClick={() => CategoryClick("recommend3")}
+                >
+                  슈퍼쎈데이S
+                </BtCate>
               </li>
               <li>
-                <BtCate>디지털프라자</BtCate>
+                <BtCate
+                  focus={active === "recommend4"}
+                  onClick={() => CategoryClick("recommend4")}
+                >
+                  LG전자
+                </BtCate>
               </li>
               <li>
                 <a href="#" className="recommend-cate-bt">
@@ -137,8 +126,13 @@ function Recommend() {
               {htmlTag.map((item, index) => {
                 return (
                   <SwiperSlide key={index}>
-                    {index === htmlTag.length - 1 ? (
-                      <a href={item.url}>바로가기</a>
+                    {item.image === "" ? (
+                      <div className="recommend-slide-item-btnmore">
+                        <a href={item.url} className="recommend-link">
+                          <i></i>
+                          <p>전체보기</p>
+                        </a>
+                    </div>
                     ) : (
                       <div className="recommend-slide-item">
                         <a href={item.url} className="recommend-link">
@@ -149,8 +143,12 @@ function Recommend() {
                             <ul className="recommend-good-list">
                               <li>
                                 <span className="recommend-good-info-price">
-                                  <b>{item.discount && item.discount + "%"}</b>
-                                  <em>{item.price}</em>원
+                                  <b>
+                                    {item.discount === 0
+                                      ? ""
+                                      : item.discount + "%"}
+                                  </b>
+                                  <em>{numberWithCommas(item.price)}</em>원
                                 </span>
                               </li>
                               <li>

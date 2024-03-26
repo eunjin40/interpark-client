@@ -1,0 +1,77 @@
+{
+    "total": 8,
+    "ticket_1": {
+      "image": "images/ticket/ticket6_1.gif",
+      "rank": 1,
+      "name": "2024 토요키즈클래식 - 5월 어린이날 디즈니 OST 콘서트",
+      "place": "용인포은아트홀",
+      "date": "2024.05.04 - 2024.05.04",
+      "class": "ticket-good-badge-red",
+      "badge": "단독판매",
+      "url": "c.html"
+    },
+    "ticket_2": {
+      "image": "images/ticket/ticket6_2.gif",
+      "rank": 2,
+      "name": "〈에그박사 - 연구소에서 생긴 일〉 - 부산 벡스코 오디토리움",
+      "place": "부산 벡스코 오디토리움",
+      "date": "2024.04.27 - 2024.04.28",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_3": {
+      "image": "images/ticket/ticket6_3.gif",
+      "rank": 3,
+      "name": "뮤지컬 〈알사탕〉 - 서울숲",
+      "place": "서울숲 씨어터 1관",
+      "date": "2021.09.18 - 2024.03.31",
+      "class": "ticket-good-badge-red",
+      "badge": "단독판매",
+      "url": "c.html"
+    },
+    "ticket_4": {
+      "image": "images/ticket/ticket6_4.gif",
+      "rank": 4,
+      "name": "〈에그박사-연구소에서 생긴 일〉-코엑스 오디토리움 ★어린이날 특별 뮤지컬★",
+      "place": "코엑스 오디토리움",
+      "date": "2024.05.05 - 2024.05.06",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_5": {
+      "image": "images/ticket/ticket6_5.gif",
+      "rank": 5,
+      "name": "가족뮤지컬 〈에그박사 - 연구소에서 생긴 일〉 - 인천",
+      "place": "부평아트센터 해누리 극장",
+      "date": "2024.07.06 - 2024.07.07",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_6": {
+      "image": "images/ticket/ticket6_6.gif",
+      "rank": 6,
+      "name": "뮤지컬 〈장수탕 선녀님〉 - 서울숲",
+      "place": "서울숲 씨어터 2관",
+      "date": "2021.09.16 - 2024.12.31",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_7": {
+      "image": "images/ticket/ticket6_7.gif",
+      "rank": 7,
+      "name": "［대구(경산)］ 뮤지컬 캐치! 티니핑 〈두근두근 싱어롱 콘서트!〉",
+      "place": "천마아트센터 그랜드홀",
+      "date": "2024.04.27 - 2024.04.28",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_8": {
+      "url": "go,html"
+    }
+  }
+  

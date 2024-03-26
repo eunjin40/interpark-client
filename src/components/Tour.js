@@ -9,25 +9,29 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import { BtCate } from "./ui/buttons";
 
 function Tour() {
   const swiperRef = useRef();
-  let [tourHtml, setTourHtml] = useState([]);
+  const [tourHtml, setTourHtml] = useState([]);
+  const [active, setActiveCategory] = useState("tour1");
+  const [jsonCategory, setJsonCategory] = useState("tour1");
+
+  const numberWithCommas = (str) => {
+    return str.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  };
 
   // 외부 데이터 연동 (axios 활용)
-  const axiosJsonData = () => {
+  const axiosJsonData = function (category) {
     axios
-      .get("tour.json")
+      .get(`json/${category}.json`)
       .then(function (res) {
-        console.log(res.data);
-
         const result = res.data;
         let arr = [];
         for (let i = 0; i < result.total; i++) {
-          const item = result["tour_" + (i + 1)];
-          arr[i] = item;
+          const obj = result["tour_" + (i + 1)];
+          arr[i] = obj;
         }
-        console.log(arr);
         setTourHtml(arr);
       })
       .catch(function (error) {
@@ -35,10 +39,47 @@ function Tour() {
       });
   };
 
+  // 외부 데이터 연동하기 (fetch 이용)
+  // const getJsonData = () => {
+  //   fetch("tour.json")
+  //     .then((response) => {
+  //       console.log("response : ", response);
+  //       // 자료가 불러들여졌을 때
+  //       return response.json();
+  //     })
+  //     .then((result) => {
+  //       console.log("result : ", result);
+  //       // 자료를 원하는데로 처리하겠다.
+  //       // result를 화면에 출력하겠다.
+  //       // 자료가 바뀌면 화면을 변경하는 기능을 생성하겠다.
+  //       let arr = [];
+  //       for (let i = 0; i < result.total; i++) {
+  //         const obj = result["tour_" + (i + 1)];
+  //         arr[i] = obj;
+  //       }
+  //       console.log(arr);
+  //       setTourHtml(arr);
+  //     })
+  //     .catch((error) => {
+  //       // 에러가 발생했다.
+  //       console.log("error : ", error);
+  //     });
+  // };
+
   // html 준비되면, json을 불러들이겠다.
+  
   useEffect(() => {
-    axiosJsonData();
-  }, []);
+    axiosJsonData(jsonCategory);
+    // getJsonData();
+    if (swiperRef.current) {
+      swiperRef.current.slideTo(0);
+    }
+  }, [jsonCategory]);
+
+  const CategoryClick = (category) => {
+    setActiveCategory(category);
+    setJsonCategory(category);
+  };
 
   return (
     <section className="tour">
@@ -52,18 +93,36 @@ function Tour() {
           <div className="tour-category">
             <ul className="tour-list">
               <li>
-                <button className="tour-cate-bt tour-cate-bt-active">
+                <BtCate
+                  focus={active === "tour1"}
+                  onClick={() => CategoryClick("tour1")}
+                >
                   망설이면 품절
-                </button>
+                </BtCate>
               </li>
               <li>
-                <button className="tour-cate-bt">패키지</button>
+                <BtCate
+                  focus={active === "tour2"}
+                  onClick={() => CategoryClick("tour2")}
+                >
+                  패키지
+                </BtCate>
               </li>
               <li>
-                <button className="tour-cate-bt">국내숙소</button>
+                <BtCate
+                  focus={active === "tour3"}
+                  onClick={() => CategoryClick("tour3")}
+                >
+                  국내숙소
+                </BtCate>
               </li>
               <li>
-                <button className="tour-cate-bt">해외숙소</button>
+                <BtCate
+                  focus={active === "tour4"}
+                  onClick={() => CategoryClick("tour4")}
+                >
+                  해외숙소
+                </BtCate>
               </li>
             </ul>
           </div>
@@ -105,7 +164,7 @@ function Tour() {
                             </li>
                             <li>
                               <span className="tour-good-info-price">
-                                <b>{item.price}</b>
+                                <b>{numberWithCommas(item.price)}</b>
                                 원~
                               </span>
                             </li>

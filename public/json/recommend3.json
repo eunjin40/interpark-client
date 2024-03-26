@@ -1,0 +1,84 @@
+{
+  "total": 12,
+  "good_1": {
+    "image": "images/recommend/r3_1.jpg",
+    "discount": 53,
+    "price": 17000,
+    "desc": "[3/20 쇼핑앱특가 15,570원]  오뚜기 컵누들 X 18개 (택 1 / 매콤한맛, 우동맛, 매콤찜닭맛, 마라탕, 로제맛, 짜장)",
+    "url": "a.html"
+  },
+  "good_2": {
+    "image": "images/recommend/r3_2.jpg",
+    "discount": 0,
+    "price": 22900,
+    "desc": "[3/20 쇼핑앱최종가 17,560원] (유니레버 공식) 스너글 초고농축 섬유유연제 4L + 2.6L +바디로션 240ml 증정",
+    "url": "a.html"
+  },
+  "good_3": {
+    "image": "images/recommend/r3_3.jpg",
+    "discount": 8,
+    "price": 81900,
+    "desc": "[다운로드쿠폰] 질레트 대용량팩 면도날 16입 모음 + 미니젤 2개 증정",
+    "url": "a.html"
+  },
+  "good_4": {
+    "image": "images/recommend/r3_4.jpg",
+    "discount": 18,
+    "price": 61550,
+    "desc": "[3/20 앱특가 개당 18,500원]  [3개세트] 라이프 익스텐션 투퍼데이 120정 타블렛",
+    "url": "a.html"
+  },
+  "good_5": {
+    "image": "images/recommend/r3_5.jpg",
+    "discount": 20,
+    "price": 12640,
+    "desc": "닥터지 블랙 스네일 크림 50ml_H",
+    "url": "a.html"
+  },
+  "good_6": {
+    "image": "images/recommend/r3_6.jpg",
+    "discount": 0,
+    "price": 23200,
+    "desc": "브리타 막스트라 플러스 필터/마렐라XL/스타일XL/플로우",
+    "url": "a.html"
+  },
+  "good_7": {
+    "image": "images/recommend/r3_7.jpg",
+    "discount": 21,
+    "price": 31600,
+    "desc": "나이키 브라질리아 S 더플백 9.5(41L) DM3976-010",
+    "url": "a.html"
+  },
+  "good_8": {
+    "image": "images/recommend/r3_8.jpg",
+    "discount": 21,
+    "price": 8690,
+    "desc": "[봄오픈특가] 마운틴벨리 간절기 봄 스판팬츠 티셔츠 바람막이 아우터 상의 아웃도어 스포츠",
+    "url": "a.html"
+  },
+  "good_9": {
+    "image": "images/recommend/r3_9.jpg",
+    "discount": 20,
+    "price": 50960,
+    "desc": "흐꺙 REQINS 하모니 발레리나/카르멘/헤마 플랫슈즈 로퍼 드라이빙 슈즈 20종 택일",
+    "url": "a.html"
+  },
+  "good_10": {
+    "image": "images/recommend/r3_10.jpg",
+    "discount": 0,
+    "price": 34000,
+    "desc": "짱죽 [한우토핑 출시]  냉장이유식 골고루 10팩/ 20팩/ 30팩 20일이내 예약배송 가능",
+    "url": "a.html"
+  },
+  "good_11": {
+    "image": "images/recommend/r3_11.jpg",
+    "discount": 0,
+    "price": 75900,
+    "desc": "[팸퍼스데이]팸퍼스 베이비드라이 팬티 밴드 통잠 1박스 기저귀",
+    "url": "a.html"
+  },
+  "good_12": {
+    "image": "",
+    "url": "go,html"
+  }
+}

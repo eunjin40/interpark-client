@@ -1,8 +1,12 @@
+import Books from "./components/Books";
+import Events from "./components/Events";
 import Header from "./components/Header";
+import Live from "./components/Live";
 import Recommend from "./components/Recommend";
 import Ticket from "./components/Ticket";
 import Tour from "./components/Tour";
 import Visual from "./components/Visual";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -16,10 +20,13 @@ function App() {
         <Recommend />
         <Tour />
         <Ticket />
+        <Live />
+        <Books />
+        <Events />
       </div>
 
       {/* 하단 영역 */}
-      <footer className="footer"></footer>
+      <Footer />
     </div>
   );
 }

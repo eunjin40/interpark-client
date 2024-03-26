@@ -1,0 +1,85 @@
+{
+    "total": 12,
+    "good_1": {
+      "image": "images/recommend/r4_1.jpg",
+      "discount": 5,
+      "price": 4440000,
+      "desc": "[혜택가 421만원대] LG 오브제컬렉션 워시콤보 FH25WAX (FH25WA+FX4WC) 25KG+4KG 세탁+건조기 화이트",
+      "url": "a.html"
+    },
+    "good_2": {
+      "image": "images/recommend/r4_2.jpg",
+      "discount": 18,
+      "price": 592440,
+      "desc": "[LG 공식판매점] 퓨리케어 360도 공기청정기 플러스 AS183DWFC 클린부스터/안심청정",
+      "url": "a.html"
+    },
+    "good_3": {
+      "image": "images/recommend/r4_3.jpg",
+      "discount": 18,
+      "price": 451160,
+      "desc": "[LG전자공식인증점] [빠른배송] LG 휘센 제습기 DQ202PBBC 20L 블루",
+      "url": "a.html"
+    },
+    "good_4": {
+      "image": "images/recommend/r4_4.jpg",
+      "discount": 17,
+      "price": 746170,
+      "desc": "LG UHD TV 50UR8300ENA 125cm 울트라HD",
+      "url": "a.html"
+    },
+    "good_5": {
+      "image": "images/recommend/r4_5.jpg",
+      "discount": 18,
+      "price": 462000,
+      "desc": "[LG 공식판매점] 오브제컬렉션 무선청소기 AS9202WD 마루/배터리1개",
+      "url": "a.html"
+    },
+    "good_6": {
+      "image": "images/recommend/r4_6.jpg",
+      "discount": 18,
+      "price": 148000,
+      "desc": "[LG공식인증점] [청구할인가13만원대] LG전자 MW23WD 전자레인지 23L 공식대명",
+      "url": "a.html"
+    },
+    "good_7": {
+      "image": "images/recommend/r4_7.jpg",
+      "discount": 18,
+      "price": 179000,
+      "desc": "[LG공식인증점] [청구할인가16만원대] LG전자 오브제컬렉션 전자레인지 MWJ23E 23L",
+      "url": "a.html"
+    },
+    "good_8": {
+      "image": "images/recommend/r4_8.jpg",
+      "discount": 16,
+      "price": 1778800,
+      "desc": "[LG공식인증점] LG UHD TV 86UR642S0NC 217cm 울트라HD",
+      "url": "a.html"
+    },
+    "good_9": {
+      "image": "images/recommend/r4_9.jpg",
+      "discount": 17,
+      "price": 1149550,
+      "desc": "LG UHD TV 70UR8300ENA 177cm 울트라HD",
+      "url": "a.html"
+    },
+    "good_10": {
+      "image": "images/recommend/r4_10.jpg",
+      "discount": 17,
+      "price": 848260,
+      "desc": "LG UHD TV 65UR642S0NC 163cm 울트라HD",
+      "url": "a.html"
+    },
+    "good_11": {
+      "image": "images/recommend/r4_11.jpg",
+      "discount": 17,
+      "price": 1138760,
+      "desc": "[청구할인가105만원대] LG전자 트롬 오브제컬렉션 건조기 RG19VN 19kg",
+      "url": "a.html"
+    },
+    "good_12": {
+      "image": "",
+      "url": "go,html"
+    }
+  }
+  

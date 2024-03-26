@@ -76,7 +76,6 @@
   margin-top: 23px;
   /* background-color: yellowgreen; */
 }
-/* 곽민성 코딩 컨벤션 */
 .recommend-slide-item {
   position: relative;
   height: 425px;
@@ -155,6 +154,30 @@
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+}
+
+.recommend-slide-item-btnmore {
+  height: 42.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recommend-link {
+  display: block;
+  height: 72px;
+}
+.recommend-link i {
+  width: 5rem;
+  height: 5rem;
+  display: block;
+  margin: 0 auto 0.6rem;
+  background: url(../images/btn_moreProdu.svg) no-repeat 50%;
+  border-radius: 5rem;
+}
+
+.recommend-slide-item-btnmore .recommend-link > p {
+  font-size: 14px;
+  text-align: center;
 }
 
 .recommend-footer {

@@ -2,7 +2,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import { HeaderTopLeft } from "../styled/header";
 import "../styles/header.css";
-import styled from "@emotion/styled";
 
 function Header() {
   // js 코드 자리

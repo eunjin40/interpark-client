@@ -1,0 +1,77 @@
+{
+    "total": 8,
+    "ticket_1": {
+      "image": "images/ticket/ticket3_1.gif",
+      "rank": 1,
+      "name": "수원삼성 vs 춘천시민축구단 (3.24)",
+      "place": "수원월드컵경기장",
+      "date": "2024.03.24 - 2024.03.24",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_2": {
+      "image": "images/ticket/ticket3_2.gif",
+      "rank": 2,
+      "name": "LCK 스프링 (3.22) - 2경기 NS vs FOX",
+      "place": "LoL PARK (그랑서울 3F / Gran Seoul 3F)",
+      "date": "2024.03.22 - 2024.03.22",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_3": {
+      "image": "images/ticket/ticket3_3.gif",
+      "rank": 3,
+      "name": "LCK 스프링 (3.22) - 1경기 GEN vs BRO",
+      "place": "LoL PARK (그랑서울 3F / Gran Seoul 3F)",
+      "date": "2024.03.22 - 2024.03.22",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_4": {
+      "image": "images/ticket/ticket3_4.gif",
+      "rank": 4,
+      "name": "부천FC1995 vs 부산교통공사축구단 (3.24)",
+      "place": "부천종합운동장",
+      "date": "2024.03.24 - 2024.03.24",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_5": {
+      "image": "images/ticket/ticket3_5.gif",
+      "rank": 5,
+      "name": "LCK 스프링 (3.21) - 2경기 DK vs KDF",
+      "place": "LoL PARK (그랑서울 3F / Gran Seoul 3F)",
+      "date": "2024.03.21 - 2024.03.21",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_6": {
+      "image": "images/ticket/ticket3_6.gif",
+      "rank": 6,
+      "name": "LCK 스프링 (3.21) - 1경기 KT vs HLE",
+      "place": "LoL PARK (그랑서울 3F / Gran Seoul 3F)",
+      "date": "2024.03.21 - 2024.03.21",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_7": {
+      "image": "images/ticket/ticket3_7.gif",
+      "rank": 7,
+      "name": "Session 9 - Men＇s ＆ Women＇s Singles Final (3.31) - 신한은행 2024 인천 WTT 챔피언스",
+      "place": "인스파이어 아레나",
+      "date": "2024.03.31 - 2024.03.31",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_8": {
+      "url": "go,html"
+    }
+  }
+  

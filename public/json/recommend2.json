@@ -1,0 +1,88 @@
+{
+    "total": 12,
+    "good_1": {
+      "image": "images/recommend/r2_1.jpg",
+      "discount": 21,
+      "price": 13210,
+      "desc": "[다운로드22%+네이버페이]  코카콜라 코크제로 등 코카콜라 BEST 음료모음전",
+      "url": "a.html"
+    },
+    "good_2": {
+      "image": "images/recommend/r2_2.jpg",
+      "discount": 10,
+      "price": 23980,
+      "desc": "[3/19하루 쇼핑앱최종가 14,610원] 에너자이저 알카라인 건전지 패밀리팩 16입/24입X2개 (AA/AAA)택1",
+      "url": "a.html"
+    },
+    "good_3": {
+      "image": "images/recommend/r2_3.jpg",
+      "discount": 18,
+      "price": 12900,
+      "desc": "[다운로드쿠폰] [질레트] 쉐이빙폼 포오미 175g 3개(레몬/멘솔/센서티브)",
+      "url": "a.html"
+    },
+    "good_4": {
+      "image": "images/recommend/r2_4.jpg",
+      "discount": 0,
+      "price": 66900,
+      "desc": "[순한 5포 증정] [루솔] 진한 배도라지즙 선물박스 60포 + 순한 배도라지즙 5포 추가증정!",
+      "url": "a.html"
+    },
+    "good_5": {
+      "image": "images/recommend/r2_5.jpg",
+      "discount": 26,
+      "price": 29890,
+      "desc": "[삼진어묵] 옛날모듬어묵 1Kg x 3개 외 어묵탕 / 어묵바 / 모듬어묵 골라담기",
+      "url": "a.html"
+    },
+    "good_6": {
+      "image": "images/recommend/r2_6.jpg",
+      "discount": 0,
+      "price": 53900,
+      "desc": "[팸퍼스데이]팸퍼스 2023 신제품 터치오브네이쳐 팬티 기저귀 1박스",
+      "url": "a.html"
+    },
+    "good_7": {
+      "image": "images/recommend/r2_7.png",
+      "discount": 74,
+      "price": 33000,
+      "desc": "★한정수량★ CK퍼포먼스 100% 정품 캘빈클라인 여성용 에어라이트 경량 바람막이 블랙/베이지 2종 택1 균일가",
+      "url": "a.html"
+    },
+    "good_8": {
+      "image": "images/recommend/r2_8.jpg",
+      "discount": 43,
+      "price": 31280,
+      "desc": "크록스 키즈 HANDLE IT RAIN BOOT KIDS 5종 택1 (24SKBT12803)",
+      "url": "a.html"
+    },
+    "good_9": {
+      "image": "images/recommend/r2_9.jpg",
+      "discount": 0,
+      "price": 12900,
+      "desc": "[보리담은] 당일생산 무방부제 찰보리빵30개/60개",
+      "url": "a.html"
+    },
+    "good_10": {
+      "image": "images/recommend/r2_10.jpg",
+      "discount": 4,
+      "price": 32500,
+      "desc": "매일 상하 유기농 아기치즈 1~4단계 80매 모음딜",
+      "url": "a.html"
+    },
+    "good_11": {
+      "image": "images/recommend/r2_11.jpg",
+      "discount": 0,
+      "price": 64900,
+      "desc": "[팸퍼스데이]팸퍼스 2024 통잠팬티 4팩 팬티형 기저귀 밤기저귀",
+      "url": "a.html"
+    },
+    "good_12": {
+        "image": "images/recommend/r2_12.jpg",
+        "discount": 68,
+        "price": 13630,
+        "desc": "[다운로드쿠폰가 19,900원] [김혜자 세제] 프로쉬공식몰 클리어런스 제품 최대 59% 할인 특가 모음전",
+        "url": "a.html"
+      }
+  }
+  

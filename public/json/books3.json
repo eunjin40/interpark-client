@@ -1,0 +1,64 @@
+{
+    "total": 10,
+    "books_1": {
+      "image": "images/book/book3_1.jpg",
+      "name": "좋아하기 때문에",
+      "subTxt": "'풀꽃 시인' 나태주의 80년 생각들",
+      "url": "e.html"
+    },
+    "books_2": {
+      "image": "images/book/book3_2.jpg",
+      "name": "과학의 '아버지'들을 추방하고 직접 찾아나선 버자이너",
+      "subTxt": "여성 신체에 대한 가장 정확한 안내서",
+      "url": "e.html"
+    },
+    "books_3": {
+      "image": "images/book/book3_3.jpg",
+      "name": "물질의 세계",
+      "subTxt": "모래·소금·철·구리·석유·리튬까지, 암흑기에서 현대의 고도로 발달한 사회로 인간 세계를 확장시킨 물질에 대한 경이로운 이야기.",
+      "url": "e.html"
+    },
+    "books_4": {
+      "image": "images/book/book3_4.jpg",
+      "name": "돌봄, 동기화, 자유",
+      "subTxt": "일본 후쿠오카의 노인요양시설 '요리아이의 숲' 소장인 저자가 쓴 돌봄의 본질, 그리고 돌봄과 자유의 공존에 관한 책.",
+      "url": "e.html"
+    },
+    "books_5": {
+      "image": "images/book/book3_5.jpg",
+      "name": "꿈과 돈",
+      "subTxt": "웃으며 돈 버는 천재 사업가가 전하는 꿈꾸는 사람이 성공할 수밖에 없는 이유! 꿈을 돈으로 바꾸기 위한 실전법. ",
+      "url": "e.html"
+    },
+    "books_6": {
+      "image": "images/book/book3_6.jpg",
+      "name": "미세 좌절의 시대",
+      "subTxt": "저널리스트 출신 소설가 장강명의 시대 진단. 현대사회의 이슈를 집대성하고 미래를 모색하는 성실한 탐구가 충실히 담겨 있다.",
+      "url": "e.html"
+    },
+    "books_7": {
+      "image": "images/book/book3_7.jpg",
+      "name": "내 말이 그 말이에요",
+      "subTxt": "[그럴 때 있으시죠?] 출간 후 8년 만에 선보인 김제동의 공감 에세이! 오늘 하루를 든든하게 채워줄, 밥과 사람 이야기.",
+      "url": "e.html"
+    },
+    "books_8": {
+      "image": "images/book/book3_8.jpg",
+      "name": "나는 나의 스무 살을 가장 존중한다",
+      "subTxt": "가난을 이기고 대한민국 상위 1% 부를 이룬 의사 이하영이 전하는 젊은 날의 가난과 뜨거운 노력을 부와 성공으로 바꾸는 법.",
+      "url": "e.html"
+    },
+    "books_9": {
+      "image": "images/book/book3_9.jpg",
+      "name": "요즘 어른을 위한 최소한의 전쟁사",
+      "subTxt": "tvN [벌거벗은 세계사] 화제의 교수 역사 스토리텔러 김봉중 교수가 펼쳐 보이는 기원전부터 현재까지의 전쟁사 파노라마. ",
+      "url": "e.html"
+    },
+    "books_10": {
+      "image": "images/book/book3_10.jpg",
+      "name": "패턴 시커",
+      "subTxt": "40여 년간 인간의 마음을 연구한 심리학과 뇌과학의 세계적인 권위자 사이먼 베런코언이 제시하는 체계화 매커니즘.",
+      "url": "e.html"
+    }
+  }
+  

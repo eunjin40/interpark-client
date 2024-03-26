@@ -1,0 +1,77 @@
+{
+    "total": 8,
+    "ticket_1": {
+      "image": "images/ticket/ticket4_1.gif",
+      "rank": 1,
+      "name": "［HYBE INSIGHT］ 세븐틴 전시 ‘FOLLOW FELLOW’",
+      "place": "더서울라이티움",
+      "date": "2024.03.20 - 2024.04.12",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_2": {
+      "image": "images/ticket/ticket4_2.gif",
+      "rank": 2,
+      "name": "［얼리버드］ 스웨덴국립미술관 컬렉션",
+      "place": "마이아트뮤지엄",
+      "date": "2024.03.21 - 2024.05.17",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_3": {
+      "image": "images/ticket/ticket4_3.gif",
+      "rank": 3,
+      "name": "［슈퍼얼리버드 50%］ 아메리칸 팝아트 거장전",
+      "place": "인사센트럴뮤지엄",
+      "date": "2024.05.01 - 2024.06.06",
+      "class": "ticket-good-badge-red",
+      "badge": "단독판매",
+      "url": "c.html"
+    },
+    "ticket_4": {
+      "image": "images/ticket/ticket4_4.gif",
+      "rank": 4,
+      "name": "［얼리버드］ 헬로키티 50주년 특별전",
+      "place": "동대문디자인플라자 뮤지엄",
+      "date": "2024.04.13 - 2024.06.28",
+      "class": "ticket-good-badge-red",
+      "badge": "단독판매",
+      "url": "c.html"
+    },
+    "ticket_5": {
+      "image": "images/ticket/ticket4_5.gif",
+      "rank": 5,
+      "name": "미셸 들라크루아, 파리의 벨 에포크",
+      "place": "예술의전당 한가람디자인미술관",
+      "date": "2023.12.16 - 2024.03.31",
+      "class": "ticket-good-badge-red",
+      "badge": "단독판매",
+      "url": "c.html"
+    },
+    "ticket_6": {
+      "image": "images/ticket/ticket4_6.gif",
+      "rank": 6,
+      "name": "［단독할인10%］ 워너브라더스 100주년 특별전",
+      "place": "동대문디자인플라자 뮤지엄",
+      "date": "2023.11.18 - 2024.03.31",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_7": {
+      "image": "images/ticket/ticket4_7.gif",
+      "rank": 7,
+      "name": "［얼리버드］ 유토피아: 노웨어, 나우 히어",
+      "place": "그라운드시소 성수",
+      "date": "2024.03.29 - 2024.10.13",
+      "class": "",
+      "badge": "",
+      "url": "c.html"
+    },
+    "ticket_8": {
+      "url": "go,html"
+    }
+  }
+  

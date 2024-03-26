@@ -7,7 +7,7 @@ import "swiper/css";
 import "../styles/visual.css";
 import { useEffect, useRef, useState } from "react";
 // axios 모듈(js.파일) 가져오기
-import axios from "axios";
+// import axios from "axios";
 import styled from "@emotion/styled";
 import { InnerArea, SectionTag } from "./layout/layout";
 
@@ -18,22 +18,51 @@ function Visual() {
   const swiperRef = useRef();
 
   // 외부 데이터 연동 (axios 활용)
-  const axiosGetData = function () {
-    axios
-      .get("visual.json")
-      .then(function (res) {
-        console.log(res.data);
-        makeVisualSlide(res.data);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-  };
+  // const axiosGetData = function () {
+  //   axios
+  //     .get("https://port-0-interpark-server-1igmo82clopizh37.sel5.cloudtype.app/visual")
+  //     .then(function (res) {
+  //       console.log(res.data);
+  //       makeVisualSlide(res.data);
+  //     })
+  //     .catch(function (error) {
+  //       console.log(error);
+  //       // 우리가 작업할 더미를 작성해 둬야 합니다.
+  //       const dObj = {
+  //         total: 6,
+  //         visual_1: {
+  //           file: "images/v1.png",
+  //           url: "a.html",
+  //         },
+  //         visual_2: {
+  //           file: "images/v2.jpg",
+  //           url: "b.html",
+  //         },
+  //         visual_3: {
+  //           file: "images/v3.jpg",
+  //           url: "c.html",
+  //         },
+  //         visual_4: {
+  //           file: "images/v4.jpg",
+  //           url: "d.html",
+  //         },
+  //         visual_5: {
+  //           file: "images/v5.jpg",
+  //           url: "e.html",
+  //         },
+  //         visual_6: {
+  //           file: "images/v6.png",
+  //           url: "f.html",
+  //         },
+  //       };
+  //       makeVisualSlide(dObj);
+  //     });
+  // };
 
   // 외부 데이터 연동 ( fetch 활용)
 
   const fetchGetData = () => {
-    fetch("visual.json")
+    fetch("json/visual.json")
       .then((res) => res.json())
       .then((result) => {
         // console.log(result);
@@ -85,30 +114,32 @@ function Visual() {
   useEffect(() => {
     // 랜더링 될때
     //  visual.json 데이터 불러들이기 기능실행
-    axiosGetData();
-    // fetchGetData();
+    // axiosGetData();
+    fetchGetData();
     return () => {
       // 삭제될때 (Clean Up 함수)
     };
   }, []);
 
-  
-  
   const SlideItem = styled.div`
-  position: relative;
-  width: 628px;
+    position: relative;
+    width: 628px;
   `;
   const SlideLink = styled.a`
-  position: relative;
-  width: 100%;
-  display: block;
-  overflow: hidden;
-  border-radius: 1.4rem;
-  `
+    position: relative;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    border-radius: 1.4rem;
+
+    img {
+      width: 100%;
+    }
+  `;
 
   return (
     <SectionTag pt={30} pb={80}>
-      <InnerArea style={{height: 345}}>
+      <InnerArea style={{ height: 345 }}>
         <Swiper
           slidesPerView={2}
           spaceBetween={24}
